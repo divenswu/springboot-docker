@@ -1,4 +1,4 @@
-FROM frolvlad/alpine-oraclejdk8:slim
+FROM ascdc/jdk8:latest
 
 MAINTAINER springboot-docker
 
