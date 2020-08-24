@@ -64,7 +64,7 @@ public class SpringDockerController {
             } catch (Exception e){}
             if (timeout > 0){
                 long runNum = 0L;
-                for(int i=0; i< 1000000000L * timeout; i++){
+                for(int i=0; i< 200000000L * timeout; i++){
                     runNum += i;
                 }
                 System.out.println("runNum="+runNum);
