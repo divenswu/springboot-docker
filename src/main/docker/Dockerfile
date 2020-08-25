@@ -1,4 +1,4 @@
-FROM ascdc/jdk8:latest
+FROM anapsix/alpine-java:latest
 
 MAINTAINER springboot-docker
 
